@@ -39,47 +39,127 @@
   transition-duration: 0.5s;
   cursor: pointer;
 }
+
+
+
 .resentPosts{
   background-color: #EDF7FA;
 }
-.resentPosts__title{
-  padding: 20px 0;
-  font-family: serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 60px;
-  display: flex;
-  align-items: flex-end;
-  color: #21243D;
-
-}
-.resentPosts--flex{
+.resentPosts__flex{
   display: flex;
   justify-content: space-between;
   padding-bottom: 32px;
 }
-.resentPosts--flex__block{
-  background-color: #FFFFFF;
-  padding: 23px;
-}
-.resentPosts--flex__block__description__title{
+.resentPosts__title{
+  padding: 27px 0 27px 0;
   font-family: 'Heebo';
   font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 38px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
   color: #21243D;
+}
+.title1{
   width: 374px;
   padding-bottom: 20px;
 }
-.resentPosts--flex__block__text{
-  font-family: Georgia, serif;
+.flex{
+  display: flex;
+}
+.date{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #21243D;
+  padding-right: 20px;
+}
+.design{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #21243D;
+  border-left: 1px solid #000000;
+  padding-left: 20px;
+}
+.text{
+  font-family: 'Heebo';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #21243D;
-  width: 339px;
+  width: 320px;
   padding-top: 20px;
+  margin-right: 0;
+}
+.resentPosts__block{
+  background-color: #FFFFFF;
+  margin-right: 20px;
+}
+.resentPosts__block__blocks{
+  padding: 24px;
+}
+.featuredWorks__flex{
+  display: flex;
+}
+.featuredWorks__flex img{
+  padding: 0 18px 15px 0;
+}
+.featuredWorks__title{
+  padding: 20px 0 20px 0;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243D;
+}
+.featuredWorks__blocks__border{
+  border: 1px solid #E0E0E0;
+  margin-bottom: 31px;
+}
+.description__subtitle{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243D;
+  padding-bottom: 16px;
+}
+.description__year{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  color: #FFFFFF;
+  background: #142850;
+  border-radius: 16px;
+  padding: 4px 10px 4px 10px;
+  margin-right: 26px;
+}
+.description__flex{
+  display: flex;
+  padding-bottom: 17px;
+}
+.description__flex span{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695A4;
+}
+.description__text{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+  width: 510px;
 }
