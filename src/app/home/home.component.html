@@ -18,26 +18,43 @@
   </div>
 </div>
 
+
 <div class="resentPosts">
   <div class="container">
-    <p class="resentPosts__title">Recent posts</p>
-    <div class="resentPosts--flex">
-      <div class="resentPosts--flex__block">
-        <h2 class="resentPosts--flex__block__description__title">Making a design system from scratch</h2>
-        <p>12 Feb 2020</p>
-        <p class="resentPosts--flex__block__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor
-          do amet sint. Velit officia consequat duis enim velit mollit.
-          Exercitation veniam consequat sunt nostrud amet.</p>
+    <h1 class="resentPosts__title">Resent Posts</h1>
+    <div class="resentPosts__flex">
+    <div class="resentPosts__block" *ngFor ="let item of list">
+      <div class="resentPosts__block__blocks">
+        <h2 class="title1">{{item.title}}</h2>
+        <div class="flex">
+          <p class="date">{{item.year}}</p>
+          <p class="design">{{item.express}}</p>
+        </div>
+        <p class="text">{{item.text}}</p>
+        <p>{{item.text1}}</p>
+    </div>
       </div>
+    </div>
+  </div>
+</div>
 
-      <div class="resentPosts--flex__block">
-        <h2 class="resentPosts--flex__block__description__title">Making a design system from scratch</h2>
-        <p>12 Feb 2020</p>
-        <p class="resentPosts--flex__block__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor
-          do amet sint. Velit officia consequat duis enim velit mollit.
-          Exercitation veniam consequat sunt nostrud amet.</p>
+
+<div class="featuredWorks">
+  <div class="container">
+    <h1 class="featuredWorks__title">Featured works</h1>
+    <div class="featuredWorks__blocks" *ngFor ="let x of lists">
+      <div class="featuredWorks__flex">
+        <img src="{{x.img}}" alt="" >
+        <div class="description">
+          <h2 class="description__subtitle">{{x.title}}</h2>
+          <div class="description__flex">
+            <p class="description__year">{{x.year}}</p>
+            <span>{{x.description}}</span>
+          </div>
+          <p class="description__text">{{x.text}}</p>
+        </div>
       </div>
-      <div></div>
+      <div class="featuredWorks__blocks__border"> </div>
     </div>
   </div>
 </div>
