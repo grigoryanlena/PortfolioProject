@@ -23,7 +23,7 @@
   <div class="container">
     <h1 class="resentPosts__title">Resent Posts</h1>
     <div class="resentPosts__flex">
-    <div class="resentPosts__block" *ngFor ="let item of list">
+    <div class="resentPosts__block" *ngFor ="let item of resentPosts">
       <div class="resentPosts__block__blocks">
         <h2 class="title1">{{item.title}}</h2>
         <div class="flex">
@@ -39,22 +39,22 @@
 </div>
 
 
-<div class="featuredWorks">
-  <div class="container">
-    <h1 class="featuredWorks__title">Featured works</h1>
-    <div class="featuredWorks__blocks" *ngFor ="let x of lists">
-      <div class="featuredWorks__flex">
-        <img src="{{x.img}}" alt="" >
-        <div class="description">
-          <h2 class="description__subtitle">{{x.title}}</h2>
-          <div class="description__flex">
-            <p class="description__year">{{x.year}}</p>
-            <span>{{x.description}}</span>
-          </div>
-          <p class="description__text">{{x.text}}</p>
-        </div>
-      </div>
-      <div class="featuredWorks__blocks__border"> </div>
-    </div>
-  </div>
-</div>
+<!--<div class="featuredWorks">-->
+<!--  <div class="container">-->
+<!--    <h1 class="featuredWorks__title">Featured works</h1>-->
+<!--    <div class="featuredWorks__blocks" *ngFor ="let x of lists">-->
+<!--      <div class="featuredWorks__flex">-->
+<!--        <img src="{{x.img}}" alt="" >-->
+<!--        <div class="description">-->
+<!--          <h2 class="description__subtitle">{{x.title}}</h2>-->
+<!--          <div class="description__flex">-->
+<!--            <p class="description__year">{{x.year}}</p>-->
+<!--            <span>{{x.description}}</span>-->
+<!--          </div>-->
+<!--          <p class="description__text">{{x.text}}</p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      <div class="featuredWorks__blocks__border"> </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
