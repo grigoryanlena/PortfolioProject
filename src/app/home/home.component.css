@@ -39,7 +39,6 @@
   transition-duration: 0.5s;
   cursor: pointer;
 }
-
 .resentPosts{
   background-color: #EDF7FA;
 }
@@ -58,7 +57,12 @@
   color: #21243D;
 }
 .title1{
-  width: 374px;
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  color: #21243D;
   padding-bottom: 20px;
 }
 .flex{
@@ -97,6 +101,7 @@
 .resentPosts__block{
   background-color: #FFFFFF;
   margin-right: 20px;
+  width: 380px;
 }
 .resentPosts__block__blocks{
   padding: 24px;
@@ -160,4 +165,235 @@
   line-height: 24px;
   color: #21243D;
   width: 510px;
+}
+@media screen and (max-width:1053px){
+  .resentPosts__block{
+    width: 300px;
+  }
+  .title1{
+    width: 100%;
+  }
+  .text{
+    width: 225px;
+  }
+  .date{
+    font-size: 16px;
+  }
+  .design{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:1050px){
+  .description__text{
+    width: 400px;
+  }
+}
+@media screen and (max-width:1010px){
+  .ownData--description--title{
+    font-size: 30px;
+    width: 100%;
+  }
+  .ownData--description--text{
+    width: 100%;
+  }
+}
+@media screen and (max-width:890px){
+  .description__text{
+    width: 270px;
+  }
+  .description__subtitle{
+    font-size: 25px;
+  }
+  .featuredWorks__blocks__border{
+    width: 530px;
+  }
+}
+@media screen and (max-width:853px){
+  .date{
+    padding-right: 5px;
+  }
+  .design{
+    padding-left: 5px;
+  }
+}
+@media screen and (max-width:838px){
+  .title1{
+    width: 210px;
+    font-size: 17px;
+  }
+  .text{
+    width: 200px;
+  }
+  .design{
+    font-size: 13px;
+  }
+  .date{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width:781px){
+  .resentPosts__block{
+    width: 247px;
+  }
+}
+@media screen and (max-width:760px){
+  .ownData--description--title{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width:720px){
+  .featuredWorks__blocks img{
+    width: 190px;
+    height: 160px;
+    padding-top: 25px;
+  }
+  .description__subtitle{
+    padding: 0;
+    font-size: 17px;
+  }
+  .description__year{
+    font-size: 16px;
+  }
+  .description span{
+    font-size: 17px;
+  }
+  .featuredWorks__blocks__border{
+    width: auto;
+  }
+}
+@media screen and (max-width:690px){
+  .resentPosts__flex{
+    flex-direction: column;
+    align-content:center;
+  }
+  .resentPosts__block{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  .title1{
+    width: 100%;
+  }
+  .text{
+    width: 100%;
+  }
+}
+@media screen and (max-width:650px){
+  .ownData--flex{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .ownData--description--title{
+    text-align: center;
+  }
+  .ownData--description--text{
+    text-align: center;
+  }
+  .ownData--description--button{
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width:640px){
+  .featuredWorks__blocks img{
+    width: 170px;
+    height: 150px;
+    padding-right: 5px;
+  }
+  .description__subtitle{
+    font-size: 15px;
+  }
+  .description__year{
+    font-size: 14px;
+  }
+  .description span{
+    font-size: 14px;
+  }
+  .description__text{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width:580px){
+  .featuredWorks__title{
+    text-align: center;
+    padding: 0;
+  }
+  .featuredWorks__flex{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .description__flex{
+    justify-content: center;
+  }
+  .description__text{
+    width: 100%;
+    font-size: 14px;
+  }
+  .featuredWorks img{
+    padding: 0;
+  }
+  .description__subtitle{
+    padding-top: 20px;
+    font-size: 19px;
+  }
+}
+@media screen and (max-width:376px){
+  .ownData--description--title{
+    padding-bottom: 21px;
+    font-size: 32px;
+    line-height: 40px
+  }
+  .ownData--description--button{
+    margin-left: 35px;
+    margin-bottom: 58px;
+  }
+  .ownData--description--text{
+    padding-bottom: 27px;
+  }
+
+
+  .resentPosts__title{
+    text-align: center;
+    font-size: 18px;
+  }
+  .resentPosts__block__blocks{
+    padding: 12px;
+  }
+  .title1{
+    font-size: 22px;
+    padding-bottom: 12px;
+  }
+  .date{
+    font-size: 16px;
+  }
+  .design{
+    font-size: 16px;
+  }
+  .text{
+    font-size: 16px;
+  }
+  .featuredWorks__title{
+    font-size: 18px;
+    line-height: 60px;
+  }
+  .featuredWorks__flex{
+    text-align: left;
+  }
+  .description__flex{
+    justify-content: flex-start;
+  }
+  .description__text{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .featuredWorks img{
+    width: 100%;
+  }
+  .description span{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .description__year{
+    font-size: 16px;
+  }
 }
