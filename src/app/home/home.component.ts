@@ -9,16 +9,23 @@ import {environment} from "../../environments/environment.prod";
 })
 export class HomeComponent implements OnInit {
   resentPosts:any[]=[]
+  featureWorks: any[]=[]
 
   constructor(private httpService:HttpService) { }
 
   ngOnInit(): void {
     this.getResentPosts()
+    this.getFeatureWorks()
   }
 
   getResentPosts(){
     return this.httpService.getData(`${environment.url}${environment.resentPosts.get}`).subscribe((data)=>{
       this.resentPosts=data
+    })
+  }
+  getFeatureWorks(){
+    return this.httpService.getData(`${environment.url}${environment.featureWorks.get}`).subscribe((data)=>{
+      this.featureWorks=data
     })
   }
 }
