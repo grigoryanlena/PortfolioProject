@@ -7,18 +7,22 @@ import {HeaderComponent} from "./main/header/header.component";
 import {FooterComponent} from "./main/footer/footer.component";
 
 import { AppRoutingModule } from './app-routing.module';
+import { WorkDetailComponent } from './work-detail/work-detail.component';
+import {HttpClientModule} from "@angular/common/http";
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    WorkDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
