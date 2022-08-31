@@ -7,8 +7,11 @@ import {HeaderComponent} from "./main/header/header.component";
 import {FooterComponent} from "./main/footer/footer.component";
 
 import { AppRoutingModule } from './app-routing.module';
+
 import { WorkDetailComponent } from './work-detail/work-detail.component';
+
 import {HttpClientModule} from "@angular/common/http";
+import { BlogComponent } from './blog/blog.component';
 
 
 @NgModule({
@@ -17,7 +20,8 @@ import {HttpClientModule} from "@angular/common/http";
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    WorkDetailComponent
+    WorkDetailComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,

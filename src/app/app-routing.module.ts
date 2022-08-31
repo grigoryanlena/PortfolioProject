@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import {RouterModule, Routes} from "@angular/router";
 import {HomeComponent} from "./home/home.component";
 import {WorkDetailComponent} from "./work-detail/work-detail.component";
+import {BlogComponent} from "./blog/blog.component";
 
 
 const routes: Routes = [
@@ -11,6 +12,9 @@ const routes: Routes = [
   },
   {
     path:"workDetail", component:WorkDetailComponent
+  },
+  {
+    path:"blog", component:BlogComponent
   }
 
 
