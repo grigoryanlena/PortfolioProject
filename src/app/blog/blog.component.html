@@ -1,1 +1,22 @@
-<p>blog works!</p>
+<header>
+</header>
+<div class="JohnsBlog">
+  <div class="container">
+  <h1 class="blog">Blog</h1>
+        <div *ngFor ="let item of getList">
+                  <div>
+                    <h2 class="subtitle">{{item.title}}</h2>
+                   <div class="flex">
+                    <p class="date">{{item.year}}</p>
+                    <p class="express">{{item.express}}</p>
+                  </div>
+                    <p class="text">{{item.text}}</p>
+                    <p>{{item.text1}}</p>
+                  </div>
+                  <div class="border"></div>
+        </div>
+ </div>
+</div>
+<footer>
+</footer>
+

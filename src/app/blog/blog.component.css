@@ -1,0 +1,102 @@
+.container{
+  width: 74%;
+  margin: auto;
+}
+.blog{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+  margin: 0;
+}
+.subtitle{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243D;
+  margin: 0;
+  padding-top: 55px;
+}
+.flex{
+  display: flex;
+}
+.date{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #21243D;
+  padding-right: 40px;
+}
+.express{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695A4;
+}
+.text{
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+  width: 600px;
+
+}
+.border{
+  border-bottom: 2px solid #E0E0E0;
+  padding-top:29px;
+  width: 681px;
+}
+
+@media only screen and (max-width: 376px) {
+  .container{
+    width: 90%;
+    margin: auto;
+  }
+   .blog{
+    padding-top: 24px;
+  }
+  .subtitle{
+    padding-top: 18px;
+    width: 700px;
+  }
+
+  .date{
+
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+    width: 89px;
+    left: 0px;
+    padding-top: 5px;
+  }
+
+  .express{
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+    width: 140px;
+    padding-top: 5px;
+  }
+
+  .text{
+    font-size: 16px;
+    height: 96px;
+    width: 500px;
+    padding-top: 17px;
+  }
+
+  .border{
+    padding-top:29px;
+    width: 300px;
+  }
+  }
