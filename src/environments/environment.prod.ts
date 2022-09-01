@@ -6,5 +6,8 @@ export const environment = {
   },
   featureWorks:{
     get:'/featureWorks'
+  },
+  featureWork:{
+    get:'/featureWork'
   }
 };
