@@ -1,0 +1,19 @@
+<header></header>
+
+<div class="work">
+  <div class="container">
+    <h1 class="work__title">Work</h1>
+
+    <app-featured-work *ngFor="let item of featuredWork"
+                       [title]="item.title"
+                       [description]="item.description"
+                       [year]="item.year"
+                       [img]="item.img"
+                       [text]="item.text"
+
+    >
+
+    </app-featured-work>
+
+  </div>
+</div>

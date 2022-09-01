@@ -12,6 +12,8 @@ import { WorkDetailComponent } from './work-detail/work-detail.component';
 
 import {HttpClientModule} from "@angular/common/http";
 import { BlogComponent } from './blog/blog.component';
+import { FeaturedWorkComponent } from './featured-work/featured-work.component';
+import { WorkComponent } from './work/work.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { BlogComponent } from './blog/blog.component';
     HeaderComponent,
     FooterComponent,
     WorkDetailComponent,
-    BlogComponent
+    BlogComponent,
+    FeaturedWorkComponent,
+    WorkComponent
   ],
   imports: [
     BrowserModule,
