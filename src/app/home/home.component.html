@@ -41,11 +41,11 @@
   <div class="container">
     <h1 class="featuredWorks__title">Featured works</h1>
     <app-featured-work *ngFor="let item of featureWorks"
-    [title]="item.title"
-    [description]="item.description"
+                       [title]="item.title"
+                       [description]="item.description"
                        [year]="item.year"
                        [img]="item.img"
                        [text]="item.text"
-    > </app-featured-work>
+    ></app-featured-work>
   </div>
 </div>
