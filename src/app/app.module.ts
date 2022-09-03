@@ -9,6 +9,8 @@ import {FooterComponent} from "./main/footer/footer.component";
 import { AppRoutingModule } from './app-routing.module';
 import {HttpClientModule} from "@angular/common/http";
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,7 @@ import {HttpClientModule} from "@angular/common/http";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
