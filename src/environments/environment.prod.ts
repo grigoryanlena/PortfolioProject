@@ -7,7 +7,12 @@ export const environment = {
   featureWorks:{
     get:'/featureWorks'
   },
+
   getList:{
     get:'/getList'
   },
+
+  featureWork:{
+    get:'/featureWork'
+  }
 };
