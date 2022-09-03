@@ -5,7 +5,13 @@
   "projects": {
     "portfolio": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "schematics": {
+          "@schematics/angular:component": {
+            "style": "scss"
+          }
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -24,7 +30,10 @@
             ],
             "styles": [
               "src/styles.scss"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 13fb71247aaeb2507ef0a979d856482ba07179ff
             ],
             "scripts": [
 
@@ -92,13 +101,20 @@
               "src/favicon.ico",
               "src/assets"
             ],
+
             "styles": [
               "src/styles.scss"
             ],
+
             "scripts": []
           }
         }
       }
+    }
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "scss"
     }
   },
   "cli": {

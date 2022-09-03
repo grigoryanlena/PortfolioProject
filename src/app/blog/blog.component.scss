@@ -1,0 +1,95 @@
+.JohnsBlog {
+&__blog {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+  margin: 0;
+}
+
+&__subtitle {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243D;
+  margin: 0;
+  padding-top: 55px;
+}
+
+&__flex {
+  display: flex;
+}
+
+&__date {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #21243D;
+  padding-right: 40px;
+}
+
+&__express {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695A4;
+}
+
+&__text {
+  font-family: 'Heebo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+  width: 100%;
+}
+
+&__border {
+  border-bottom: 2px solid #E0E0E0;
+  padding-top:29px;
+  width: 681px;
+}
+ }
+
+@media only screen and (max-width: 444px) {
+
+.JohnsBlog__blog {
+  padding-top: 24px;
+}
+.JohnsBlog__subtitle {
+  padding-top: 18px;
+  font-size: 25px;
+}
+
+.JohnsBlog__date {
+  padding-top:6px;
+  font-size: 16px;
+}
+
+.JohnsBlog__express {
+  padding-top: 6px;
+  font-size: 16px;
+}
+
+.JohnsBlog__text {
+  padding-top: 6px;
+  font-size: 16px;
+}
+  }
+
+@media only screen and (max-width: 788px) {
+
+.JohnsBlog__border {
+  padding-top:29px;
+  width: 100%;
+}
+}

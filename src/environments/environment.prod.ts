@@ -3,5 +3,16 @@ export const environment = {
   url:'http://localhost:3000',
   resentPosts:{
     get:'/resentPosts'
+  },
+  featureWorks:{
+    get:'/featureWorks'
+  },
+
+  getList:{
+    get:'/getList'
+  },
+
+  featureWork:{
+    get:'/featureWork'
   }
 };

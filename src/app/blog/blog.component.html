@@ -1,0 +1,23 @@
+<div class="JohnsBlog">
+  <div class="container">
+    <h1 class="JohnsBlog__blog">Blog</h1>
+      <div *ngFor="let item of getList">
+          <div>
+            <h2 class="JohnsBlog__subtitle">{{item.title}}</h2>
+            <div class="JohnsBlog__flex">
+            <p class="JohnsBlog__date">{{item.year}}</p>
+            <p class="JohnsBlog__express">{{item.express}}</p>
+          </div>
+            <p class="JohnsBlog__text"> {{item.text}}</p>
+            <p>{{item.text}}</p>
+      </div>
+          <div class="JohnsBlog__border"></div>
+          </div>
+  </div>
+</div>
+<header>
+</header>
+<footer>
+</footer>
+
+

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .ownData--flex {
   display: flex;
   justify-content: space-between;
@@ -161,3 +162,276 @@
   color: #21243D;
   width: 510px;
 }
+=======
+.ownData {
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 650px) {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  }
+
+  &__description {
+    &__title {
+      font-family: Heebo, Thin;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 60px;
+      color: #21243D;
+      width: 440px;
+      padding-bottom: 40px;
+      @media screen and (max-width: 1010px) {
+        font-size: 30px;
+        width: 100%;
+      }
+      @media screen and (max-width: 760px) {
+        font-size: 25px;
+      }
+      @media screen and (max-width: 650px) {
+        text-align: center;
+      }
+      @media screen and (max-width: 376px) {
+        padding-bottom: 21px;
+        font-size: 32px;
+        line-height: 40px;
+      }
+    }
+
+    &__text {
+      font-family: Georgia, serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #21243D;
+      width: 497px;
+      padding-bottom: 38px;
+      @media screen and (max-width: 1010px) {
+        width: 100%;
+      }
+
+      @media screen and (max-width: 650px) {
+        text-align: center;
+        margin: auto;
+      }
+      @media screen and (max-width: 376px) {
+        padding-bottom: 27px;
+      }
+    }
+
+    &__button {
+      background: #FF6464;
+      border: none;
+      padding: 9px 20px;
+      font-family: 'Heebo';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 29px;
+      color: #FFFFFF;
+      margin-bottom: 70px;
+
+      &:hover {
+        background-color: #a91c1c;
+        transition-duration: 0.5s;
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: 650px) {
+        margin-left: 60px;
+      }
+      @media screen and (max-width: 376px) {
+        margin-left: 35px;
+        margin-bottom: 58px;
+      }
+    }
+  }
+}
+
+.resentPosts {
+  background-color: #EDF7FA;
+
+  &__title {
+    padding: 27px 0 27px 0;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    @media screen and (max-width: 376px) {
+      text-align: center;
+      font-size: 18px;
+    }
+  }
+
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+    @media screen and (max-width: 690px) {
+      flex-direction: column;
+      align-content: center;
+    }
+
+    &__block {
+      background-color: #FFFFFF;
+      margin-right: 20px;
+      width: 380px;
+      @media screen and (max-width: 1053px) {
+        width: 300px;
+      }
+      @media screen and (max-width: 781px) {
+        width: 247px;
+      }
+      @media screen and (max-width: 690px) {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+      }
+
+      &__blocks {
+        padding: 24px;
+        @media screen and (max-width: 376px) {
+          padding: 12px;
+        }
+
+        &__title1 {
+          font-family: 'Heebo';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 26px;
+          line-height: 38px;
+          color: #21243D;
+          padding-bottom: 20px;
+          @media screen and (max-width: 1053px) {
+            width: 100%;
+          }
+          @media screen and (max-width: 838px) {
+            width: 210px;
+            font-size: 17px;
+          }
+          @media screen and (max-width: 690px) {
+            width: 100%;
+          }
+          @media screen and (max-width: 376px) {
+            font-size: 22px;
+            padding-bottom: 12px;
+          }
+        }
+
+        &__flex {
+          display: flex;
+
+          &__date {
+            font-family: 'Heebo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            color: #21243D;
+            padding-right: 20px;
+            @media screen and (max-width: 1053px) {
+              font-size: 16px;
+            }
+            @media screen and (max-width: 853px) {
+              padding-right: 5px;
+            }
+            @media screen and (max-width: 838px) {
+              font-size: 13px;
+            }
+            @media screen and (max-width: 376px) {
+              font-size: 16px;
+            }
+          }
+
+          &__design {
+            font-family: 'Heebo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            color: #21243D;
+            border-left: 1px solid #000000;
+            padding-left: 20px;
+          }
+        }
+
+        &__text {
+          font-family: 'Heebo';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #21243D;
+          width: 320px;
+          padding-top: 20px;
+          margin-right: 0;
+          @media screen and (max-width: 1053px) {
+            width: 225px;
+          }
+          @media screen and (max-width: 838px) {
+            width: 200px;
+          }
+          @media screen and (max-width: 690px) {
+            width: 100%;
+          }
+          @media screen and (max-width: 376px) {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.featuredWorks {
+  &__title {
+    padding: 20px 0 20px 0;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+
+  }
+
+
+}
+
+@media screen and (max-width: 1053px) {
+  .resentPosts__block {
+    width: 300px;
+  }
+  .title1 {
+    width: 100%;
+  }
+  .text {
+    width: 225px;
+  }
+  .date {
+    font-size: 16px;
+  }
+  .design {
+    font-size: 16px;
+
+    @media screen and (max-width: 580px) {
+      text-align: center;
+      padding: 0;
+    }
+    @media screen and (max-width: 376px) {
+      font-size: 18px;
+      line-height: 60px;
+    }
+  }
+}
+
+
+
+
+
+>>>>>>> 13fb71247aaeb2507ef0a979d856482ba07179ff

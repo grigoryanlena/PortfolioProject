@@ -1,16 +1,15 @@
 <div class="ownData">
   <div class="container">
-    <div class="ownData--flex">
-      <div class="ownData--description">
-        <h1 class="ownData--description--title">Hi, I am John,
+    <div class="ownData__flex">
+      <div class="ownData__description">
+        <h1 class="ownData__description__title">Hi, I am John,
           Creative Technologist</h1>
-        <p class="ownData--description--text">Amet minim mollit non deserunt ullamco est sit
+        <p class="ownData__description__text">Amet minim mollit non deserunt ullamco est sit
           aliqua dolor do amet sint. Velit officia consequat
           duis enim velit mollit. Exercitation veniam consequat
           sunt nostrud amet.</p>
-        <button class="ownData--description--button">Download Resume</button>
+        <button class="ownData__description__button">Download Resume</button>
       </div>
-
       <div class="Johns-image">
         <img src="../../../assets/Ellipse 1 (1).png" alt="no image">
       </div>
@@ -18,43 +17,35 @@
   </div>
 </div>
 
-
 <div class="resentPosts">
   <div class="container">
     <h1 class="resentPosts__title">Resent Posts</h1>
     <div class="resentPosts__flex">
-    <div class="resentPosts__block" *ngFor ="let item of resentPosts">
-      <div class="resentPosts__block__blocks">
-        <h2 class="title1">{{item.title}}</h2>
-        <div class="flex">
-          <p class="date">{{item.year}}</p>
-          <p class="design">{{item.express}}</p>
+      <div class="resentPosts__flex__block" *ngFor="let item of resentPosts">
+        <div class="resentPosts__flex__block__blocks">
+          <h2 class="resentPosts__flex__block__blocks__title1">{{item.title}}</h2>
+          <div class="resentPosts__flex__block__blocks__flex">
+            <p class="resentPosts__flex__block__blocks__flex__date">{{item.year}}</p>
+            <p class="resentPosts__flex__block__blocks__flex__design">{{item.express}}</p>
+          </div>
+          <p class="resentPosts__flex__block__blocks__text">{{item.text}}</p>
+          <p>{{item.text1}}</p>
         </div>
-        <p class="text">{{item.text}}</p>
-        <p>{{item.text1}}</p>
-    </div>
       </div>
     </div>
   </div>
 </div>
 
 
-<!--<div class="featuredWorks">-->
-<!--  <div class="container">-->
-<!--    <h1 class="featuredWorks__title">Featured works</h1>-->
-<!--    <div class="featuredWorks__blocks" *ngFor ="let x of lists">-->
-<!--      <div class="featuredWorks__flex">-->
-<!--        <img src="{{x.img}}" alt="" >-->
-<!--        <div class="description">-->
-<!--          <h2 class="description__subtitle">{{x.title}}</h2>-->
-<!--          <div class="description__flex">-->
-<!--            <p class="description__year">{{x.year}}</p>-->
-<!--            <span>{{x.description}}</span>-->
-<!--          </div>-->
-<!--          <p class="description__text">{{x.text}}</p>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--      <div class="featuredWorks__blocks__border"> </div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</div>-->
+<div class="featuredWorks">
+  <div class="container">
+    <h1 class="featuredWorks__title">Featured works</h1>
+    <app-featured-work *ngFor="let item of featureWorks"
+                       [title]="item.title"
+                       [description]="item.description"
+                       [year]="item.year"
+                       [img]="item.img"
+                       [text]="item.text"
+    ></app-featured-work>
+  </div>
+</div>
