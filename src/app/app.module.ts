@@ -14,8 +14,10 @@ import {HttpClientModule} from "@angular/common/http";
 import { BlogComponent } from './blog/blog.component';
 import { FeaturedWorkComponent } from './featured-work/featured-work.component';
 import { WorkComponent } from './work/work.component';
-
-
+import {MatMenuModule} from '@angular/material/menu';
+import {MatIconModule} from "@angular/material/icon";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {FontAwesomeModule} from "@fortawesome/angular-fontawesome";
 
 
 @NgModule({
@@ -26,14 +28,17 @@ import { WorkComponent } from './work/work.component';
     FooterComponent,
     WorkDetailComponent,
     BlogComponent,
-
     FeaturedWorkComponent,
-    WorkComponent
+    WorkComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    MatMenuModule,
+    MatIconModule,
+    BrowserAnimationsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

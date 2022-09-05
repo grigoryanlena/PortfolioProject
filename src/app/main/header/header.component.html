@@ -5,5 +5,24 @@
       <li class="menu-list-item"><a routerLink="/work">Work</a></li>
       <li class="menu-list-item"><a routerLink="/blog">Blog</a></li>
     </ul>
+    <div class="dropdown-menu">
+      <!--  mat-icon-button-->
+      <button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu" class="dropdown-menu__button">
+        <mat-icon style="font-size: 30px">list</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item routerLink="home">
+          <span>Home</span>
+        </button>
+        <button mat-menu-item routerLink="work">
+          <span>Work</span>
+        </button>
+        <button mat-menu-item routerLink="blog" >
+          <span>Blog</span>
+        </button>
+      </mat-menu>
+    </div>
   </div>
 </div>
+
+
