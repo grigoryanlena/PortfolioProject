@@ -18,7 +18,6 @@
       font-size: 30px;
       width: 339px;
     }
-
   }
   &__img{
     img{
@@ -44,7 +43,6 @@
   }
   &__about{
     h3{
-
       font-family: 'Heebo';
       font-style: normal;
       font-weight: 500;
@@ -60,10 +58,8 @@
       font-size: 24px;
       line-height: 60px;
       color: #21243D;
-
     }
     p{
-
       font-family: 'Heebo';
       font-style: normal;
       font-weight: 400;
@@ -80,9 +76,7 @@
       img{
         width: 100%;
         padding-bottom: 27px;
-
       }
-
     }
   }
 }
@@ -96,7 +90,6 @@
 
 .workDetail__subtitle__blog{
   margin-top: 30px;
-
 
   &__flex{
     display: flex;
@@ -126,7 +119,6 @@
         font-size: 17px;
         width: 262px;
       }
-
     }
     &__text{
       font-family: 'Heebo';
@@ -143,9 +135,7 @@
       @media screen and (max-width: 376px){
         font-size: 14px;
         width: 270px;
-
       }
-
     }
   }
 }

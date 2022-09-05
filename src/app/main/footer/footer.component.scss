@@ -1,0 +1,38 @@
+.footer{
+  padding:51px 0 54px 0;
+  &__icons{
+  width: 21%;
+  margin:0 auto 26px auto;
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 1000px) {
+    width: 27%;
+  }
+  @media screen and (max-width: 800px) {
+    width: 35%;
+  }
+  @media screen and (max-width: 600px) {
+    width: 50%;
+  }
+  @media screen and (max-width: 470px) {
+    width:60%;
+  }
+  @media screen and (max-width: 400px) {
+    width: 77%;
+  }
+    &__icon{
+      font-size: 33px;
+      color: #21243D;
+    }
+}
+  &__message{
+    text-align: center;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #21243D;
+  }
+
+}

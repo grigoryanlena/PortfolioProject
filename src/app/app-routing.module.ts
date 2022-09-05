@@ -8,25 +8,13 @@ import {WorkComponent} from "./work/work.component";
 
 
 const routes: Routes = [
-  {
-    path:"", component:HomeComponent
-  },
-  {
-    path:"home", component:HomeComponent
-  },
-
-  {
-    path:"workDetail", component:WorkDetailComponent
-  },
-  {
-    path:"blog", component:BlogComponent
-  },
-  {
-    path:"work", component:WorkComponent
-  }
-
-
+  {path:"", redirectTo:"home", pathMatch:"full"},
+  {path:"home", component:HomeComponent},
+  {path:"workDetail", component:WorkDetailComponent},
+  {path:"blog", component:BlogComponent},
+  {path:"work", component:WorkComponent}
 ];
+
 @NgModule({
   declarations: [],
   imports: [
