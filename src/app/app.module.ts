@@ -16,6 +16,8 @@ import { FeaturedWorkComponent } from './featured-work/featured-work.component';
 import { WorkComponent } from './work/work.component';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +33,7 @@ import { WorkComponent } from './work/work.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
