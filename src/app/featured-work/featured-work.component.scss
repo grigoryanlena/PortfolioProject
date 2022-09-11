@@ -1,4 +1,9 @@
 .featuredWorks__blocks {
+  &:hover{
+    cursor: pointer;
+    background-color: #d2edf77d;
+    transition-duration: 0.5s;
+  }
   &__flex {
     display: flex;
     border-bottom: 2px solid #E0E0E0;
