@@ -1,6 +1,6 @@
 .workDetail{
   &__title{
-    font-family: 'Heebo';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
@@ -18,14 +18,10 @@
       font-size: 30px;
       width: 339px;
     }
-
   }
   &__img{
     img{
       width: 100%;
-      //background-image: url("../../assets/Rectangle 4.svg");
-      //background-size:cover;
-      //background-repeat: no-repeat;
       height: 500px;
       margin-top: 46px;
       @media screen and (max-width: 870px){
@@ -44,8 +40,7 @@
   }
   &__about{
     h3{
-
-      font-family: 'Heebo';
+      font-family: sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 30px;
@@ -54,17 +49,15 @@
       margin-top: 54px;
     }
     h4{
-      font-family: 'Heebo';
+      font-family: sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 24px;
       line-height: 60px;
       color: #21243D;
-
     }
     p{
-
-      font-family: 'Heebo';
+      font-family: sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -80,23 +73,12 @@
       img{
         width: 100%;
         padding-bottom: 27px;
-
       }
-
     }
   }
 }
-
-/*.workDetail__subtitle__blog__date{*/
-/*  background: #FF7C7C;*/
-/*  border-radius: 16px;*/
-/*  width: 62px;*/
-/*  height: 25px;*/
-/*}*/
-
 .workDetail__subtitle__blog{
   margin-top: 30px;
-
 
   &__flex{
     display: flex;
@@ -112,7 +94,7 @@
       height: 25px;
     }
     &__title{
-      font-family: 'Heebo';
+      font-family: sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 20px;
@@ -126,10 +108,9 @@
         font-size: 17px;
         width: 262px;
       }
-
     }
     &__text{
-      font-family: 'Heebo';
+      font-family: sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
@@ -143,9 +124,7 @@
       @media screen and (max-width: 376px){
         font-size: 14px;
         width: 270px;
-
       }
-
     }
   }
 }

@@ -1,40 +1,48 @@
 .header{
   padding: 27px 0 92px;
   @media screen and (max-width: 490px){
-    padding: 20px 0 2px 0;
+    padding: 20px 0 45px 0;
   }
-}
-.menu-list{
-  display: flex;
-  justify-content: flex-end;
-}
-.menu-list-item{
-  list-style-type: none;
-  margin-left: 50px;
-}
-.menu-list-item a{
-  text-decoration: none;
-  font-family: 'Heebo';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 29px;
-  text-align: right;
-  color: #000000;
+
+  &__menuList{
+    display: flex;
+    justify-content: flex-end;
+    @media screen and (max-width: 490px){
+      display: none;
+    }
+    &__item{
+      list-style-type: none;
+      margin-left: 50px;
+      a{
+        text-decoration: none;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        text-align: right;
+        color: #000000;
+      }
+    }
+  }
 }
 .dropdown-menu{
   display: none;
   justify-content: flex-end;
+     @media screen and (max-width: 490px){
+       display: flex;
+     }
   &__button{
     background: none;
     border:none
   }
 }
-@media screen and (max-width: 490px){
-  .dropdown-menu{
-    display: flex;
-  }
-  .menu-list{
-    display: none;
-  }
-}
+
+//@media screen and (max-width: 490px){
+//  .dropdown-menu{
+//    display: flex;
+//  }
+//  .menu-list{
+//    display: none;
+//  }
+//}
