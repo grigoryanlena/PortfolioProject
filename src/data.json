@@ -83,7 +83,22 @@
       "title": "Designing Dashboards",
       "year": "2020",
       "description": "Dashboard",
-      "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+      "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "workDetails": [
+        {
+          "id": 1,
+          "title": "Designing Dashboards with usability in mind",
+          "year": "2020",
+          "description": "Dashboard, User Experience Design",
+          "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+          "heading_one": "Heading 1",
+          "heading_two": "Heading 2",
+          "heading_text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+          "image_page": "../../assets/Rectangle 4.png",
+          "image_car": "../../assets/Rectangle 5.png",
+          "image_order": "../../assets/Rectangle 6.png"
+        }
+      ]
     },
     {
       "id": 2,
@@ -91,7 +106,22 @@
       "title": "Vibrant Portraits of 2020",
       "year": "2018",
       "description": "Illustration",
-      "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+      "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "workDetails": [
+        {
+          "id": 1,
+          "title": "Vibrant Portraits of 2020",
+          "year": "2018",
+          "description": "Illustration",
+          "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+          "heading_one": "Heading 1",
+          "heading_two": "Heading 2",
+          "heading_text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+          "image_page": "../../../assets/Rectangle 32.png",
+          "image_car": "../../assets/portrait.jpg",
+          "image_order": "../../assets/order.png"
+        }
+      ]
     },
     {
       "id": 3,
@@ -99,7 +129,20 @@
       "title": "36 Days of Malayalam type",
       "year": "2018",
       "description": "Typography",
-      "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+      "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "workDetails": [
+        {
+          "id": 1,
+          "title": "36 Days of Malayalam type",
+          "year": "2018",
+          "description": "Typography",
+          "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+          "heading_text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+          "image_page": "../../../assets/Rectangle 34.png",
+          "image_car": "../../../assets/typography.jpg"
+        }
+      ]
+
     },
     {
       "id": 4,
@@ -107,7 +150,18 @@
       "title": "Components",
       "year": "2018",
       "description": "Components, Design",
-      "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+      "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "workDetails": [
+        {
+          "id": 1,
+          "title": "Components",
+          "year": "2018",
+          "description": "Components, Design",
+          "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+          "heading_text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+          "image_page": "../../../assets/Rectangle 30.png"
+        }
+      ]
     }
   ]
 }

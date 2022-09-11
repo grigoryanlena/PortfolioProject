@@ -12,4 +12,7 @@ export class HttpService {
   public getData(urlPart: string): Observable<any> {
     return this.http.get<any>(`${urlPart}`);
   }
+  public getDataByID(path: string, id: string): Observable<any> {
+    return this.http.get<any>(`${path}/${id}`);
+  }
 }

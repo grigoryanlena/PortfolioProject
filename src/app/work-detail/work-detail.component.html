@@ -1,32 +1,64 @@
-<div class="workDetail">
-  <div class="container">
-        <h1 class="workDetail__title">Designing Dashboards with usability in mind</h1>
-      <div class="workDetail__subtitle__blog">
-        <div class="workDetail__subtitle__blog__flex">
-          <span>2020</span>
-          <p class="workDetail__subtitle__blog__flex__title">Dashboard, User Experience Design</p>
-        </div>
+<!--<div class="workDetail">-->
+<!--  <div class="container">-->
+<!--        <h1 class="workDetail__title">Designing Dashboards with usability in mind</h1>-->
+<!--      <div class="workDetail__subtitle__blog">-->
+<!--        <div class="workDetail__subtitle__blog__flex">-->
+<!--          <span>2020</span>-->
+<!--          <p class="workDetail__subtitle__blog__flex__title">Dashboard, User Experience Design</p>-->
+<!--        </div>-->
 
-        <p class="workDetail__subtitle__blog__flex__text">
-          Amet minim mollit non deserunt ullamco
-          est sit aliqua dolor do amet sint. Velit officia consequat duis enim
-          velit mollit. Exercitation veniam consequat sunt nostrud amet.
-        </p>
+<!--        <p class="workDetail__subtitle__blog__flex__text">-->
+<!--          Amet minim mollit non deserunt ullamco-->
+<!--          est sit aliqua dolor do amet sint. Velit officia consequat duis enim-->
+<!--          velit mollit. Exercitation veniam consequat sunt nostrud amet.-->
+<!--        </p>-->
+<!--      </div>-->
+<!--    <div class="workDetail__img">-->
+<!--      <img src="../../assets/Rectangle 4.png" alt="no image">-->
+<!--    </div>-->
+<!--    <div class="workDetail__about">-->
+<!--      <h3>Heading 1</h3>-->
+<!--      <h4>Heading 2</h4>-->
+<!--      <p>Amet minim mollit non deserunt ullamco-->
+<!--        est sit aliqua dolor do amet sint. Velit officia consequat dui-->
+<!--        s enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>-->
+<!--      <div class="workDetail__about__images">-->
+<!--        <img src="../../assets/Rectangle 5.png" alt="no image">-->
+<!--        <img src="../../assets/Rectangle 6.png" alt="no image">-->
+<!--      </div>-->
+
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+<div class="workDetail" >
+  <div class="container">
+    <ng-container *ngFor="let item of info">
+    <h1 class="workDetail__title">{{item.title}}</h1>
+    <div class="workDetail__subtitle__blog">
+      <div class="workDetail__subtitle__blog__flex">
+        <span>{{item.year}}</span>
+        <p class="workDetail__subtitle__blog__flex__title">{{item.description}}</p>
       </div>
+
+      <p class="workDetail__subtitle__blog__flex__text">
+        {{item.text}}
+      </p>
+    </div>
     <div class="workDetail__img">
-      <img src="../../assets/Rectangle 4.png" alt="no image">
+      <img src="{{item.image_page}}" alt="no image">
     </div>
     <div class="workDetail__about">
-      <h3>Heading 1</h3>
-      <h4>Heading 2</h4>
-      <p>Amet minim mollit non deserunt ullamco
-        est sit aliqua dolor do amet sint. Velit officia consequat dui
-        s enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+      <h3 *ngIf="item.heading_one">{{item.heading_one}}</h3>
+      <h4 *ngIf="item.heading_two">{{item.heading_two}}</h4>
+      <p>{{item.heading_text}}</p>
       <div class="workDetail__about__images">
-        <img src="../../assets/Rectangle 5.png" alt="no image">
-        <img src="../../assets/Rectangle 6.png" alt="no image">
+        <img *ngIf="item.image_car" src="{{item.image_car}}" alt="no image">
+        <img *ngIf="item.image_order" src="{{item.image_order}}" alt="no image">
       </div>
 
     </div>
+    </ng-container>
   </div>
 </div>
